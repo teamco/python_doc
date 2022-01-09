@@ -19,7 +19,7 @@
 - [`py.Crud.read`](./building.py.md#function-read)
 - [`py.Crud.remove`](./building.py.md#function-remove)
 - [`py.Crud.update`](./building.py.md#function-update)
-- [`py.Entity.__init__`](./building.py.md#function-__init__)
+- [`py.Entity.__init__`](./building.py.md#function-__init__): This is an example of a module level function.
 - [`py.Entity.create`](./building.py.md#function-create)
 - [`py.Entity.print_all`](./building.py.md#function-print_all)
 - [`py.Entity.read`](./building.py.md#function-read)
