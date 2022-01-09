@@ -126,10 +126,12 @@ update(idx, value)
 ## <kbd>class</kbd> `Entity`
 A class to represent a person. 
 
-... Attributes 
+... 
+
+Attributes 
 ---------- entity_type : str  Abstract entity name. parent : object  Parent class instance. 
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L88"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L89"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `__init__`
 
