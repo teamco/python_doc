@@ -77,6 +77,7 @@ class Entity(Crud):
     A class to represent a person.
 
     ...
+
     Attributes
     ----------
     entity_type : str
