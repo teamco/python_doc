@@ -124,7 +124,7 @@ update(idx, value)
 __init__(entity_type, parent)
 ```
 
-Takes in a number n, returns the square of n 
+Init abstract entity :param entity_type: string :param parent: parent class instance. Default is None 
 
 
 

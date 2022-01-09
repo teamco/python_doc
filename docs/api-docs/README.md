@@ -19,7 +19,7 @@
 - [`py.Crud.read`](./building.py.md#function-read)
 - [`py.Crud.remove`](./building.py.md#function-remove)
 - [`py.Crud.update`](./building.py.md#function-update)
-- [`py.Entity.__init__`](./building.py.md#function-__init__): Takes in a number n, returns the square of n
+- [`py.Entity.__init__`](./building.py.md#function-__init__): Init abstract entity
 - [`py.Entity.create`](./building.py.md#function-create)
 - [`py.Entity.print_all`](./building.py.md#function-print_all)
 - [`py.Entity.read`](./building.py.md#function-read)

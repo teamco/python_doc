@@ -38,7 +38,11 @@ class Crud:
 
 class Entity(Crud):
     def __init__(self, entity_type, parent):
-        """Takes in a number n, returns the square of n"""
+        """
+        Init abstract entity
+        :param entity_type: string
+        :param parent: parent class instance. Default is None
+        """
         super().__init__()
         self.entity_type = entity_type
         self.parent = parent
