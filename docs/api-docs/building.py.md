@@ -19,11 +19,22 @@
 ---
 
 ## <kbd>class</kbd> `Crud`
+A class to represent a person. 
 
+... 
 
+Methods 
+------- create(entity_type):  Creates entity. 
 
+read(idx):  Get entity by index. 
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L2"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+update(idx, value):  Update entity value by index. 
+
+remove(idx):  Get entity by index. 
+
+print_all():  Print all collected entities. 
+
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L24"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `__init__`
 
@@ -31,16 +42,17 @@
 __init__()
 ```
 
+Constructs all the necessary attributes for the entity object. 
 
-
-
+Parameters 
+----------  index : int  Item index.  entity_type : str  Parent class instance.  remove_items : list  Items to remove collector.  items : list  Items collector. 
 
 
 
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L8"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L44"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `create`
 
@@ -54,7 +66,7 @@ create(entity_type)
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L30"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L66"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `print_all`
 
@@ -68,7 +80,7 @@ print_all()
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L13"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L49"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `read`
 
@@ -82,7 +94,7 @@ read(idx)
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L22"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L58"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `remove`
 
@@ -96,7 +108,7 @@ remove(idx)
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L16"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L52"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `update`
 
@@ -112,11 +124,12 @@ update(idx, value)
 ---
 
 ## <kbd>class</kbd> `Entity`
+A class to represent a person. 
 
+... Attributes 
+---------- entity_type : str  Abstract entity name. parent : object  Parent class instance. 
 
-
-
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L40"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L88"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `__init__`
 
@@ -124,14 +137,19 @@ update(idx, value)
 __init__(entity_type, parent)
 ```
 
-Init abstract entity :param entity_type: string :param parent: parent class instance. Default is None 
+Init abstract entity. 
+
+**Parameters:**
+ 
+     - <b>`entity_type`</b> (str):  Abstract entity name. 
+     - <b>`parent`</b> (object):  Parent class instance. Default is None. 
 
 
 
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L8"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L44"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `create`
 
@@ -145,7 +163,7 @@ create(entity_type)
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L30"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L66"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `print_all`
 
@@ -159,7 +177,7 @@ print_all()
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L13"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L49"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `read`
 
@@ -173,7 +191,7 @@ read(idx)
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L22"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L58"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `remove`
 
@@ -187,7 +205,7 @@ remove(idx)
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L16"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/building.py/building.py#L52"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `update`
 

@@ -1,5 +1,41 @@
 class Crud:
+    """
+    A class to represent a person.
+
+    ...
+
+    Methods
+    -------
+    create(entity_type):
+        Creates entity.
+
+    read(idx):
+        Get entity by index.
+
+    update(idx, value):
+        Update entity value by index.
+
+    remove(idx):
+        Get entity by index.
+
+    print_all():
+        Print all collected entities.
+    """
     def __init__(self):
+        """
+        Constructs all the necessary attributes for the entity object.
+
+        Parameters
+        ----------
+            index : int
+                Item index.
+            entity_type : str
+                Parent class instance.
+            remove_items : list
+                Items to remove collector.
+            items : list
+                Items collector.
+        """
         self.index = None
         self.entity_type = None
         self.remove_items = None
@@ -37,11 +73,24 @@ class Crud:
 
 
 class Entity(Crud):
+    """
+    A class to represent a person.
+
+    ...
+    Attributes
+    ----------
+    entity_type : str
+        Abstract entity name.
+    parent : object
+        Parent class instance.
+    """
+
     def __init__(self, entity_type, parent):
         """
-        Init abstract entity
-        :param entity_type: string
-        :param parent: parent class instance. Default is None
+        Init abstract entity.
+            Parameters:
+                entity_type (str): Abstract entity name.
+                parent (object): Parent class instance. Default is None.
         """
         super().__init__()
         self.entity_type = entity_type
