@@ -201,7 +201,7 @@ Properties created with the ``@property`` decorator should be documented in the 
  - <b>`attr1`</b> (str):  Description of `attr1`. 
  - <b>`attr2`</b> (:obj:`int`, optional):  Description of `attr2`. 
 
-<a href="https://github.com/teamco/python_doc/blob/main/google.py/google.py#L198"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/google.py/google.py#L203"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `__init__`
 
@@ -247,7 +247,7 @@ If the setter method contains notable behavior, it should be mentioned here.
 
 ---
 
-<a href="https://github.com/teamco/python_doc/blob/main/google.py/google.py#L246"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/teamco/python_doc/blob/main/google.py/google.py#L251"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>function</kbd> `example_method`
 
@@ -311,9 +311,7 @@ Either form is acceptable, but the two should not be mixed. Choose one conventio
 __init__(msg, code)
 ```
 
-
-
-
+:param msg: :param code: 
 
 
 

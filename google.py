@@ -174,6 +174,11 @@ class ExampleError(Exception):
     """
 
     def __init__(self, msg, code):
+        """
+
+        :param msg:
+        :param code:
+        """
         self.msg = msg
         self.code = code
 
@@ -258,6 +263,8 @@ class ExampleClass(object):
 
         """
         return True
+
+
 
     def __special__(self):
         """By default special members with docstrings are not included.
